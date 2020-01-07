@@ -1,7 +1,7 @@
 const http = require("http");
 
 const server = http.createServer((req, res) => {
-    res.end("The container is updated");
+    res.end("new image");
 });
 
 server.listen(8080, () => {
