@@ -1,7 +1,7 @@
 const http = require("http");
 
 const server = http.createServer((req, res) => {
-    res.end("new image");
+    res.end("hey its a new world");
 });
 
 server.listen(8080, () => {
